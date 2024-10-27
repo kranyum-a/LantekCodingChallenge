@@ -1,0 +1,43 @@
+# Archivos de construcción y publicación
+bin/
+obj/
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Configuración de usuario (IDE, configuraciones de entorno local)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de lock y logs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.log
+
+# Archivos temporales y de sistema
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de compilación local
+*.vs
+ReSharper
+*.orig
+
+# Directorios y archivos de pruebas
+TestResults/
+# Directorio de logs
+CuttingMachinesApp/Logs
