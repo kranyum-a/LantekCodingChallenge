@@ -49,8 +49,8 @@ This project implements a .NET console application to retrieve and display cutti
 
 1. **Clone the Repository**:
 ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/kranyum-a/LantekCodingChallenge.git
+   cd LantekCodingChallenge/CuttingMachinesApp
 ```
 2. **Restore Dependencies**:
 ```bash
@@ -76,7 +76,7 @@ dotnet run
 - **Integration Test**: Verify the application's interaction with Lantek's API.
 
 ### 4.2. Running the Tests
-Run all tests (unit and integration) using
+To run all tests (unit and integration) navigate to the `CuttingMachinesApp/CuttingMachinesApp.Test` directory and execute:
 ```bash
 dotnet test
 ```
